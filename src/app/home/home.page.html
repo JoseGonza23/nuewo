@@ -1,0 +1,29 @@
+
+ <ion-header class="pop" [translucent]="false">
+    <ion-toolbar class="pop" >
+      <ion-item id="header" class="pop">
+        
+        <div id="logo"><img src="./assets/icon/logito.ico" alt="img logo"></div>
+        <h3> IUMACO </h3> 
+        <div class="custom-button" slot="end">
+          <ion-button fill="clear" class="botonsesion"   (click)="salirPagina()">Cerrar sesión</ion-button>
+        </div>
+      </ion-item>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content  class="jiji">
+    <br>
+    <h1 class="jiij">INSTRUCTOR</h1>
+    <ion-row>
+      <ion-col size="4">
+        <button fill="outline" class="oo" (click)="felicitarAprendiz()">FELICITAR APRENDIZ</button>
+      </ion-col>
+      <ion-col size="4">
+        <button  fill="outline" class="oo"  (click)="llamadoAtencion()">LLAMADO DE ATENCION</button>
+      </ion-col>
+      <ion-col size="4">
+        <button  fill="clear" class="oo"  (click)="citacionComite()">CITACION A COMITE</button>
+      </ion-col>
+    </ion-row>
+  </ion-content>

@@ -1,0 +1,27 @@
+<ion-content >
+  <ion-card class="boton-redondo">
+    <ion-icon name="tu-icono-aqui"></ion-icon>
+  </ion-card>
+    <ion-row>
+      <ion-col size="6" >
+        <div id="formulario">
+          <form (ngSubmit)="login()">
+            <ion-item class="uno">
+              <ion-label position="floating">usuario</ion-label>
+              <ion-input type="text" [(ngModel)]="username" name="username" required></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label position="floating">password</ion-label>
+              <ion-input type="password" [(ngModel)]="password" name="password" required></ion-input>
+            </ion-item>
+            <button type="submit" class="vovo">INGRESAR</button>
+          </form>
+        </div>
+      </ion-col>
+      <ion-col size="6" class="yuyo">
+        <a href="https://sena.territorio.la/cms/index.php"><img src="../../assets/Captura de pantalla 2023-10-20 200054.png" class="imagen"></a>
+       <h1 class="año">2023</h1>
+      </ion-col>
+    </ion-row>
+
+</ion-content>
